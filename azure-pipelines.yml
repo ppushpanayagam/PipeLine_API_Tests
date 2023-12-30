@@ -13,3 +13,6 @@ stages:
         displayName: 'Nunit Test'
         steps:
           - script: echo Hello, world!
+          - task: DotNetCoreCLI@2
+            inputs:
+              command: 'test'
