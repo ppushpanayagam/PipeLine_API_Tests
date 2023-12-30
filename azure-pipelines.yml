@@ -38,9 +38,12 @@ stages:
               command: 'build'
           - task: CopyFiles@2
             inputs:
-              SourceFolder: '$(agent.builddirectory)'
+              SourceFolder: '$(agent.builddirectory)/s/target'
               Contents: '*.jar'
               TargetFolder: '$(build.artifactstagingdirectory)'
+              CleanTargetFolder: true
+              OverWrite: true
+
           
           - task: PublishBuildArtifacts@1
             inputs:
