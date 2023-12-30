@@ -36,3 +36,14 @@ stages:
           - task: DotNetCoreCLI@2
             inputs:
               command: 'build'
+          - task: CopyFiles@2
+            inputs:
+              SourceFolder: '$(agent.builddirectory)/s/target'
+              Contents: '*.jar'
+              TargetFolder: '$(build.artifactstagingdirectory)'
+          
+          - task: PublishBuildArtifacts@1
+            inputs:
+              PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+              ArtifactName: 'drop'
+              publishLocation: 'Container'
