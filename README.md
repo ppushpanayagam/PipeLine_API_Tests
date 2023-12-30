@@ -1,3 +1,3 @@
 README
 - added for pull request
-- conditional check
+- conditional checks
