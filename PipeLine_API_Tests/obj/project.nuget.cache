@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "CwxOh8pTwn/2aj9Qqa9B1F0MaBxYPlJxn3LZDZupzNKQPi6Sy+k+KtL8Xp50psM4nSsG5NnZMRhTckDoh1Fh6g==",
+  "success": true,
+  "projectFilePath": "/Users/pushparajpushpanayagam/Projects/PipelineTest/PipeLine_API_Tests/PipeLine_API_Tests/PipeLine_API_Tests.csproj",
+  "expectedPackageFiles": [
+    "/Users/pushparajpushpanayagam/.nuget/packages/coverlet.collector/3.2.0/coverlet.collector.3.2.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/microsoft.codecoverage/17.5.0/microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/microsoft.net.test.sdk/17.5.0/microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/microsoft.testplatform.objectmodel/17.5.0/microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/microsoft.testplatform.testhost/17.5.0/microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/nunit.analyzers/3.6.1/nunit.analyzers.3.6.1.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/nunit3testadapter/4.4.2/nunit3testadapter.4.4.2.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/restsharp/110.2.1-alpha.0.16/restsharp.110.2.1-alpha.0.16.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
+    "/Users/pushparajpushpanayagam/.nuget/packages/system.text.json/7.0.3/system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
