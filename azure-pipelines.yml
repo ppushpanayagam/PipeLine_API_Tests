@@ -14,8 +14,8 @@ pool:
   vmImage: ubuntu-latest
 
 stages:
-  - stage:
-    displayName: 'Nunit'
+  - stage: 'Nunit'
+    displayName: 'Nunit Stage'
     jobs:
       - job: 'NunitTest'
         displayName: 'Nunit Test'
@@ -26,6 +26,8 @@ stages:
               command: 'test'
   - stage: 
     displayName: 'Building Artificat'
+    condition: and(succeed(), ne(variables['Build.Reason'], 'PullRequest'))
+    dependsOn: 'Nunit'
     jobs:
       - job: 'BuildArtifact'
         displayName: 'Build Artifact'
