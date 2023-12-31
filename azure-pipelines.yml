@@ -38,7 +38,7 @@ stages:
               command: 'build'
           - task: CopyFiles@2
             inputs:
-              SourceFolder: '$(Build.SourcesDirectory)/myArtifact'
+              SourceFolder: '$(Build.SourcesDirectory)/Solution/artifacts'
               Contents: '*.jar'
               TargetFolder: '$(build.artifactstagingdirectory)'
               CleanTargetFolder: true
